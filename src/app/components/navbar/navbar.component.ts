@@ -29,7 +29,6 @@ export class NavbarComponent {
       return;
     }
 
-    // Detección normal de secciones
     for (const section of sections) {
       const element = document.getElementById(section);
       if (element) {
